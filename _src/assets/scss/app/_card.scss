@@ -1,0 +1,26 @@
+.app-card {
+  position: relative;
+  cursor: pointer;
+
+  &-btns {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    opacity: 0;
+    transition: $transitions-time opacity ease-in-out;
+  }
+
+  &:hover &-btns {
+    opacity: 1;
+  }
+}
+
+.agregar {
+  width: 15em;
+  height: 3em;
+  margin: 0.6em 0.5em;
+  background-color: #E2E4E6;
+  padding: 0.6em;
+  border-radius: 5px;
+  color: gray;
+}

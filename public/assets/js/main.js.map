@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["main.js"],"sourcesContent":["'use strict';\n\nimport './edit.js';\nimport './menu.js';\nimport './newlist.js';"],"file":"main.js"}
